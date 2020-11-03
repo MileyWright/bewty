@@ -1,10 +1,12 @@
 import './App.css';
-import {Nav, Home} from './Components';
+import {Nav, Home, Jumbotron, Footer} from './Components';
 function App() {
   return (
     <div className="App">
       <Nav/>
+      <Jumbotron/>
       <Home/>
+      <Footer/>
     </div>
   );
 }

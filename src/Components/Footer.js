@@ -1,12 +1,11 @@
-
-const Home = () => {
+const Footer = () => {
     return (
         <>
             <div>
-                Homepage
+                Footer
             </div>
         </>
     )
 }
 
-export default Home;
+export default Footer;
