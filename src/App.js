@@ -1,9 +1,9 @@
 import './App.css';
-
+import {Nav} from './Components';
 function App() {
   return (
     <div className="App">
-      <img src={`${process.env.PUBLIC_URL}/assets/images/skin_product_pm.webp`} alt='hey'/>
+      <Nav/>
     </div>
   );
 }
