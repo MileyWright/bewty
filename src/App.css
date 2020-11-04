@@ -240,6 +240,41 @@ letter-spacing: 3px;
     font-weight: 700;
 }
 
+.section_3{
+    background-color: #fef5ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0 5% 0;
+}
+.section_3 .section_3_title{
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'Arbutus Slab', serif;
+    color: #575048;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin:0;
+    padding: 4%;
+}
+.section_3 .slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section_3 .slide img{
+    width: 100%;
+    overflow: hidden;
+}
+.section_3 img{
+    width: 15%;
+    margin: 1%;
+    cursor: pointer;
+}
+.section_3 div:last-child{
+    margin-bottom: 4%;
+}
 /* Footer */
 .footer {
     display: flex;

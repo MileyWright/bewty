@@ -67,6 +67,19 @@ const Home = () => {
                     <img src={`${process.env.PUBLIC_URL}/assets/images/viewmore.png`}/>
                 </div>
             </div>
+
+            <div className='section_3'>
+                <p className='section_3_title'>BEWTY In Instagram</p>
+                <div className='slide'>
+                <img src={`${process.env.PUBLIC_URL}/assets/images/should-you-use-vitamin-c-serum.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/assets/images/Hims_PDP_Kit2_Image5050_04-30ct.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/assets/images/instragram.png`}/>
+                <img src={`${process.env.PUBLIC_URL}/assets/images/can-tretinoin-remove-blackheads.jpg`}/>
+                <img src={`${process.env.PUBLIC_URL}/assets/images/02_Hims_Skin_PDP_Acne_fighting.jpg`}/>
+                </div>
+                <img src={`${process.env.PUBLIC_URL}/assets/images/button.png`}/>
+                <div></div>
+            </div>
         </>
     )
 }
