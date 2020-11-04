@@ -298,6 +298,24 @@ letter-spacing: 3px;
     .head .right_nav p{
         visibility: hidden;
     }
+    .section_1{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10%;
+        align-items: center;
+    }
+    .section_1 .left_products{
+        width: 100%;
+    }
+    .section_1 .left_products p{
+        width: 100%;
+    }
+    .section_1 .right_about {
+        /* flex-direction: column-reverse; */
+        width: 100%;
+        margin: 6% 0 6% 0;
+        
+    }
 }
 
 @media (max-width: 740px) {
