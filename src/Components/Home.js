@@ -15,6 +15,58 @@ const Home = () => {
                     <img src={`${process.env.PUBLIC_URL}/assets/images/Hims_PDP_GoodnightWrinkleCream_Text6040_02.webp`} alt='kit'/>
                 </div>
             </div>
+            
+            <div className='section_2_head'>Best Seller Products</div>
+            <div className='section_2'>
+                <div className='card'>
+                    <div>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/Hims_PDP_DHT_Plus_ImageLarge_01.jpg`} alt='shampoo'/>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/skin_product_MorningGlowSerum.webp`} alt='skincare'/>
+                        <p className='card_title'>HAIR CARE —</p>
+                        <p className='card_descript'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href='#'>Visit Store</a>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/Hims_PDP_GoodnightWrinkleCream_ImageLarge_01.jpg`} />
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/skin_product_MorningGlowSerum.webp`} alt='skincare'/>
+                        <p className='card_title'>MOISTURISER —</p>
+                        <p className='card_descript'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href='#'>Visit Store</a>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/11_Hims_Skin_PLP_AgingCanBeScary_Resized.webp`} />
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/skin_product_MorningGlowSerum.webp`} alt='skincare'/>
+                        <p className='card_title'>BEARD LOVE —</p>
+                        <p className='card_descript'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href='#'>Visit Store</a>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/Hims_PLP_Skin_Text5050_02.webp`}/>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/skin_product_MorningGlowSerum.webp`} alt='skincare'/>
+                        <p className='card_title'>SKIN CARE —</p>
+                        <p className='card_descript'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href='#'>Visit Store</a>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/Hims-PDP-Skin-AntiAging-04-FullBleedImage-_Application.png`}/>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/skin_product_MorningGlowSerum.webp`} alt='skincare'/>
+                        <p className='card_title'>CARE CURLY —</p>
+                        <p className='card_descript'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <a href='#'>Visit Store</a>
+                    </div>
+                </div>
+                <div className='card'>
+                    <img src={`${process.env.PUBLIC_URL}/assets/images/viewmore.png`}/>
+                </div>
+            </div>
         </>
     )
 }
