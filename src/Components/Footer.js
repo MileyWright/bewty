@@ -37,7 +37,7 @@ const Footer = () => {
                     <p>Cialis</p>
                     <p>Finasteride</p>
                     <p>Minoxidil</p>
-                    <p>Slidenafil</p>
+                    <p>Sildenafil</p>
                     <p>Tadalafil</p>
                     <p>Sertraline For PE</p>
                     <p>Propranolol</p>
