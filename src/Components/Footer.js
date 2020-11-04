@@ -20,7 +20,7 @@ const Footer = () => {
                     <p>Online Therapy</p>
                     <p>COVID-19 Test</p>
                 </div>
-                <div>
+                <div className='footer_col'>
                     <p className='footer_title'>Learn</p>
                     <p>About Us</p>
                     <p>Our Medical Experts</p>
@@ -32,7 +32,7 @@ const Footer = () => {
                     <p>Medical Conditions</p>
                     <p>Investors</p>
                 </div>
-                <div>
+                <div className='footer_col'>
                     <p className='footer_title'>Popular</p>
                     <p>Cialis</p>
                     <p>Finasteride</p>

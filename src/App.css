@@ -296,7 +296,11 @@ letter-spacing: 3px;
 .footer .footer_title:hover{
     text-decoration: none;
 }
-
+.footer a {
+    font-weight: 600;
+    color: #575048;
+    text-decoration: none;
+}
 .copyright {
     text-align: center;
     margin: 5% 0 5% 0;
@@ -338,6 +342,21 @@ letter-spacing: 3px;
     .banner .left_div p:first-child {
         font-size: 2.5rem;
     }
+    .section_3 .slide {
+        flex-wrap: wrap;    
+    }
+    .section_3 .slide img {
+        width: 50%;
+        margin:0;
+    }
+    .section_3 .slide img:nth-child(3){
+        display: none;
+    }
+    
+    .section_3 img{
+        width: 20%;
+        margin-top: 4%;
+    }
 }
 @media (max-width: 990px){
     .head button {
@@ -376,6 +395,18 @@ letter-spacing: 3px;
         width: 100%;
         margin: 6% 0 6% 0;
     }
+    .section_3 img{
+        width: 30%;
+        margin-top: 4%;
+    }
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer .footer_col{
+        width: 50%;
+        margin-bottom: 5%;
+    }
 }
 
 @media (max-width: 740px) {
@@ -390,5 +421,9 @@ letter-spacing: 3px;
     }
     .banner .left_div button {
         display: none;
+    }
+    .section_3 img{
+        width: 30%;
+        margin-top: 4%;
     }
 }
